@@ -1,0 +1,22 @@
+/* import Font Awesome and Google font(s) */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+/* import the necessary Bootstrap files */
+@import "../node_modules/bootstrap/scss/functions";
+
+/* override Bootstrap variables (before importing Bootstrap!!!) */
+@import 'projectVariables';
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+
+/* Optional Sass map overrides here (just before the Bootstrap maps!!) */
+@import 'projectMaps';
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/root";
+@import 'projectUtilities';
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+/* create custom styles/partials */
+@import 'custom';
