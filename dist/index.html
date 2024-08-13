@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>midnight echo</title>
+    </head>
+    <body>
+        <main class="container">
+            <header class="py-1">
+                <h1>
+                    midnight echo
+                    <small class="text-muted">project 1ITF</small>
+                </h1>
+                <hr class="mb-4" />
+            </header>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <p class="text-justify">
+                        Dit is de website voor de midnight echo film.
+                    </p>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="alert alert-primary alert-dismissible fade show">
+                        This is a primary alert
+                        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    </div>
+                    <div class="alert alert-danger alert-dismissible fade show">
+                        This is a danger alert
+                        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    </div>
+                    <div class="alert alert-success alert-dismissible fade show">
+                        This is a success alert
+                        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4">
+                    <div class="d-grid gap-2">
+                        <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                            <i class="fa-solid fa-home"></i> Home
+                        </button>
+                        <button type="button" class="btn btn-danger"><i class="fa-solid fa-users"></i> Users</button>
+                        <button type="button" class="btn btn-purple"><i class="fa-solid fa-brush"></i> Purple button</button>
+                        <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#imageModal">
+                            <i class="fa-solid fa-image"></i> Image modal
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Modal -->
+        <div class="modal fade" id="imageModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Image @ Ansgar Scheffold</h5>
+                    </div>
+                    <div class="modal-body">
+                        <img src="https://picsum.photos/id/95/640/427" class="img-fluid" alt="Photo by Kundan Ramisetti" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <!--custom scripts ONLY external links to studentX.js-->
+    </body>
+</html>
