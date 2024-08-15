@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 body {
 	--s: 50px;
 	--c: #191b22;
@@ -7,8 +7,31 @@ body {
 	--_c: #0000 66%,#20222a 68% 70%,#0000 72%;
 	background: radial-gradient(var(--_g) 100% 25%,var(--_c)) var(--s) var(--s)/var(--_s), radial-gradient(var(--_g) 0 75%,var(--_c)) var(--s) var(--s)/var(--_s), radial-gradient(var(--_g) 100% 25%,var(--_c)) 0 0/var(--_s), radial-gradient(var(--_g) 0 75%,var(--_c)) 0 0/var(--_s), repeating-conic-gradient(var(--c) 0 25%,#0000 0 50%) 0 0/var(--_s), radial-gradient(var(--_c)) 0 calc(var(--s)/2)/var(--s) var(--s) var(--c);
 	background-attachment: fixed;
-}
-main{
-    background-color: rgba(255,255,255,0.2);
-    color: white;
-}
+	font-family: 'Creepster', cursive;
+	font-size: 1.1rem;
+	}
+	
+	main {
+		background-color: rgba(255,255,255,0.2);
+		color: white;
+	}
+	
+	h2 {
+		font-size: 2rem; 
+	}
+	
+	p {
+		font-size: 1.2rem; 
+	}
+	
+	.banner-container {
+		position: relative;
+	}
+	
+	.logo-overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		transform: translate(0, 0);
+		max-width: 30%; // Adjust the size of the logo as needed
+	}
